@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+}
+
+img,
+video {
+  display: block;
+}
+
+:root {
+  --beige: #e0ccbb;
+  --black: #070707;
+}
+
+body {
+  font-family: poppins;
+  background-color: var(--beige);
+}

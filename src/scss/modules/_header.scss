@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  width: 1116px;
+  height: 43px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  flex-shrink: 0;
+}
+
+.header-name {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.header-nav {
+  display: flex;
+  width: 546px;
+  height: 43px;
+  padding: 10px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 22px;
+  flex-shrink: 0;
+}
