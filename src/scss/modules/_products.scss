@@ -14,9 +14,6 @@
 
 .product-work-title {
   color: var(--COLOR-BLACK, #070707);
-
-  /* typo/title */
-  font-family: Poppins;
   font-size: 15px;
   font-style: normal;
   font-weight: 500;
@@ -53,6 +50,26 @@
 .product-work-two span {
   color: var(--COLOR-BLACK, #070707);
   text-align: right;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.product-title-second {
+  color: var(--COLOR-MAIN, #e0ccbb);
+  font-size: 113px;
+  font-weight: 600;
+  line-height: 149.857%;
+  margin-top: 50px;
+}
+
+.product-work-one-second {
+  color: var(--COLOR-MAIN, #e0ccbb);
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.product-work-one-second span {
+  color: var(--COLOR-MAIN, #e0ccbb);
   font-size: 15px;
   font-weight: 500;
 }
