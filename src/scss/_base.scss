@@ -39,6 +39,12 @@ body {
   font-size: 15px;
   font-weight: 600;
   text-decoration: none;
+  transition: all 0.3s;
+}
+
+.button:hover {
+  text-decoration: underline;
+  transform: scale(1.05);
 }
 
 .ligne {

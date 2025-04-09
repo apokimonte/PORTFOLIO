@@ -8,6 +8,13 @@
   align-items: center;
   gap: 24px;
   flex-shrink: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.header-container {
+  display: flex;
 }
 
 .header-name {
@@ -23,6 +30,11 @@
   justify-content: flex-end;
   align-items: center;
   gap: 22px;
+}
+
+.header-nav a:hover {
+  text-decoration: underline;
+  font-weight: 600;
 }
 
 .header a {
@@ -42,7 +54,7 @@
   font-size: 14px;
   font-weight: 300;
   margin-bottom: 23px;
-  position: fixed;
+  margin-top: 100px;
 }
 
 .header-quote {
@@ -70,6 +82,10 @@
   flex-shrink: 0;
 }
 
+.header-nav-second a:hover {
+  text-decoration: underline;
+  font-weight: 600;
+}
 .header-nav-second a {
   color: var(--COLOR-MAIN, #e0ccbb);
 }
@@ -79,5 +95,5 @@
   font-size: 14px;
   font-weight: 300;
   margin-bottom: 23px;
-  position: fixed;
+  margin-top: 100px;
 }

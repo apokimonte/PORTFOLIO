@@ -26,10 +26,15 @@
   font-weight: 300;
 }
 
-.product-work span {
+.product-work a {
   color: var(--COLOR-BLACK, #070707);
   font-size: 15px;
   font-weight: 500;
+  text-decoration: none;
+}
+
+.product-work:hover a {
+  text-decoration: underline;
 }
 
 .product-img-two {
@@ -47,7 +52,7 @@
   font-weight: 300;
 }
 
-.product-work-two span {
+.product-work-two a {
   color: var(--COLOR-BLACK, #070707);
   text-align: right;
   font-size: 15px;
@@ -68,8 +73,13 @@
   font-weight: 300;
 }
 
-.product-work-one-second span {
+.product-work-one-second a {
   color: var(--COLOR-MAIN, #e0ccbb);
   font-size: 15px;
   font-weight: 500;
+  text-decoration: none;
+}
+
+.product-work-one-second:hover a {
+  text-decoration: underline;
 }
