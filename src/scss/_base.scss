@@ -6,6 +6,7 @@
 
 a {
   color: inherit;
+  cursor: none;
 }
 
 img,
@@ -52,4 +53,18 @@ body {
   background: #070707;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.cursor {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #e0ccbb;
+  mix-blend-mode: difference;
+  position: fixed;
+  pointer-events: none;
+}
+
+html {
+  cursor: none;
 }
